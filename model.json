@@ -1,0 +1,597 @@
+{
+  "version": 2,
+  "status": "independent_native_geometry_reconstruction_not_SW_Motion",
+  "models": [
+    {
+      "key": "U-",
+      "label": "上唇 −X",
+      "kind": "fourbar",
+      "normal": [
+        0.7071067811865449,
+        2.328774514779708e-17,
+        0.7071067811865501
+      ],
+      "A": [
+        -10.499350709987565,
+        15.500000000009946,
+        32.2020138288863
+      ],
+      "B": [
+        -21.235813974453166,
+        16.204778789108452,
+        42.93847709335182
+      ],
+      "C": [
+        -19.447839469501464,
+        7.567285267301864,
+        41.15050258840014
+      ],
+      "D": [
+        -10.49935070998944,
+        6.500000000011456,
+        32.20201382888818
+      ],
+      "P": [
+        -25.43151859008438,
+        9.778883866456404,
+        47.13418170898301
+      ],
+      "lengths_mm": [
+        15.200000000000005,
+        8.99999999999807,
+        12.700000000000005,
+        8.99999999999849
+      ],
+      "branch": -1,
+      "components": [
+        "mouth_smiling six-bar mechanism_above-1",
+        "mouth_smiling six-bar mechanism_below-1",
+        "mouth_lip connecting rod-1",
+        "mouth_ball of spherical hinge-1"
+      ],
+      "body_roles": {
+        "upper": "mouth_smiling six-bar mechanism_above-1",
+        "lower": "mouth_smiling six-bar mechanism_below-1",
+        "output": "mouth_lip connecting rod-1",
+        "ball": "mouth_ball of spherical hinge-1"
+      },
+      "parameter": "guide_rocker_delta_deg",
+      "parameter_status": "guide_angle_not_motor_angle",
+      "drive": null,
+      "output_definition": "native sphere centre; passive skin-pad orientation excluded",
+      "frame": "saved mouth assembly, jaw fixed",
+      "unit": "mm",
+      "parallelogram_branch": false,
+      "native_motor_occurrences": [
+        "mouth_MG90S-10"
+      ]
+    },
+    {
+      "key": "UC",
+      "label": "上唇中点",
+      "kind": "fourbar",
+      "normal": [
+        1.0,
+        3.443577921710623e-17,
+        1.0967312520712775e-17
+      ],
+      "A": [
+        -2.8779817195262393e-15,
+        17.0,
+        41.6878783670618
+      ],
+      "B": [
+        -2.8779817195366704e-15,
+        13.601171718502478,
+        52.359708871379816
+      ],
+      "C": [
+        -2.5680597065827108e-15,
+        4.601171718502464,
+        52.35970887137983
+      ],
+      "D": [
+        -2.568059706572285e-15,
+        7.999999999999993,
+        41.68787836706181
+      ],
+      "P": [
+        -2.8052755569647493e-15,
+        9.101171718493841,
+        59.859708871381024
+      ],
+      "lengths_mm": [
+        11.199999999999998,
+        9.000000000000014,
+        11.2,
+        9.000000000000007
+      ],
+      "branch": -1,
+      "components": [
+        "mouth_six-bar mechanism_above_short-1",
+        "mouth_six-bar mechanism_below_short-1",
+        "mouth_lip connecting rod-4",
+        "mouth_ball of spherical hinge-3"
+      ],
+      "body_roles": {
+        "upper": "mouth_six-bar mechanism_above_short-1",
+        "lower": "mouth_six-bar mechanism_below_short-1",
+        "output": "mouth_lip connecting rod-4",
+        "ball": "mouth_ball of spherical hinge-3"
+      },
+      "parameter": "guide_rocker_delta_deg",
+      "parameter_status": "sampled_motor_mapping_with_full_wire_and_OT_constraints",
+      "drive": {
+        "type": "native_full_constraint_samples",
+        "status": "conditional_saved_active_mates_nonlinear_drive_trajectory",
+        "crank": "mouth_crank-33",
+        "source": "../native_decode/reader_review/upper_middle_drive_motion.json",
+        "sample_step_deg": 1
+      },
+      "output_definition": "native sphere centre; passive skin-pad orientation excluded",
+      "frame": "saved mouth assembly, jaw fixed",
+      "unit": "mm",
+      "parallelogram_branch": true,
+      "native_motor_occurrences": [
+        "mouth_MG90S-20"
+      ]
+    },
+    {
+      "key": "U+",
+      "label": "上唇 +X",
+      "kind": "fourbar",
+      "normal": [
+        0.7071067811865447,
+        3.4424277162980846e-15,
+        -0.7071067811865503
+      ],
+      "A": [
+        10.499350709987988,
+        15.500000000009916,
+        32.20201382888676
+      ],
+      "B": [
+        21.235813974453585,
+        16.20477878910837,
+        42.93847709335228
+      ],
+      "C": [
+        19.447839469501467,
+        7.567285267301812,
+        41.15050258840013
+      ],
+      "D": [
+        10.499350709989443,
+        6.500000000011403,
+        32.20201382888818
+      ],
+      "P": [
+        25.43151859008438,
+        9.778883866456404,
+        47.13418170898301
+      ],
+      "lengths_mm": [
+        15.2,
+        8.999999999998217,
+        12.7,
+        8.999999999998511
+      ],
+      "branch": -1,
+      "components": [
+        "mouth_smiling six-bar mechanism_above-2",
+        "mouth_smiling six-bar mechanism_below-2",
+        "mouth_lip connecting rod-2",
+        "mouth_ball of spherical hinge-2"
+      ],
+      "body_roles": {
+        "upper": "mouth_smiling six-bar mechanism_above-2",
+        "lower": "mouth_smiling six-bar mechanism_below-2",
+        "output": "mouth_lip connecting rod-2",
+        "ball": "mouth_ball of spherical hinge-2"
+      },
+      "parameter": "guide_rocker_delta_deg",
+      "parameter_status": "guide_angle_not_motor_angle",
+      "drive": null,
+      "output_definition": "native sphere centre; passive skin-pad orientation excluded",
+      "frame": "saved mouth assembly, jaw fixed",
+      "unit": "mm",
+      "parallelogram_branch": false,
+      "native_motor_occurrences": [
+        "mouth_MG90S-1"
+      ]
+    },
+    {
+      "key": "L-",
+      "label": "下唇 −X",
+      "kind": "fourbar",
+      "normal": [
+        0.57357549171638,
+        3.456290234705977e-17,
+        0.8191527057284943
+      ],
+      "A": [
+        -11.20282440374346,
+        -46.79999999999986,
+        40.0360603864861
+      ],
+      "B": [
+        -21.438695845478954,
+        -49.06890719316359,
+        47.20327713896915
+      ],
+      "C": [
+        -21.43869584547889,
+        -40.068907193163604,
+        47.203277138969106
+      ],
+      "D": [
+        -11.202824403743403,
+        -37.79999999999989,
+        40.03606038648606
+      ],
+      "P": [
+        -27.582341138403443,
+        -44.56890719322967,
+        51.50509332681453
+      ],
+      "lengths_mm": [
+        12.700000000000001,
+        8.999999999999986,
+        12.699999999999992,
+        8.999999999999972
+      ],
+      "branch": 1,
+      "components": [
+        "mouth_six-bar mechanism_with spherical hinge-3",
+        "mouth_smiling six-bar mechanism_below-6",
+        "mouth_lip connecting rod-8",
+        "mouth_ball of spherical hinge-9"
+      ],
+      "body_roles": {
+        "upper": "mouth_six-bar mechanism_with spherical hinge-3",
+        "lower": "mouth_smiling six-bar mechanism_below-6",
+        "output": "mouth_lip connecting rod-8",
+        "ball": "mouth_ball of spherical hinge-9"
+      },
+      "parameter": "guide_rocker_delta_deg",
+      "parameter_status": "motor_mapping_available_with_recorded_status",
+      "drive": {
+        "type": "R_SS_R_distance_closure",
+        "crank": "mouth_crank-31",
+        "rod": "mouth_self-made ball hinge rod for the lower teeth-3",
+        "axis": [
+          0.9999999999993352,
+          2.621279906997432e-16,
+          1.153185527773805e-06
+        ],
+        "origin_mm": [
+          -1.1006672263391692e-05,
+          -39.99999999999724,
+          9.544580652498196
+        ],
+        "input_point_mm": [
+          -10.398822560858315,
+          -67.46211538406826,
+          27.334964155089175
+        ],
+        "output_point_mm": [
+          -22.073153276935262,
+          -48.22923287759288,
+          38.23479134747054
+        ],
+        "length_mm": 25.00000000000001,
+        "output_axis_distance_mm": 1.4100651348365232e-11,
+        "status": "conditional_reconstruction_0.969mm_saved_metal_ball_mismatch",
+        "note": "Jaw held fixed; no calibrated absolute angle, torque, stops or collisions. Negative-X metal-ball instance has a saved-placement discrepancy."
+      },
+      "output_definition": "native sphere centre; passive skin-pad orientation excluded",
+      "frame": "saved mouth assembly, jaw fixed",
+      "unit": "mm",
+      "parallelogram_branch": true,
+      "native_motor_occurrences": [
+        "mouth_MG90S-17"
+      ]
+    },
+    {
+      "key": "LC",
+      "label": "下唇中点",
+      "kind": "fourbar",
+      "normal": [
+        0.9999999999993351,
+        5.542251405727844e-16,
+        1.1531855272011338e-06
+      ],
+      "A": [
+        0.2200428180002201,
+        -47.79999999999998,
+        49.29088864833201
+      ],
+      "B": [
+        0.2200307378887502,
+        -51.76300606809715,
+        59.76631622452569
+      ],
+      "C": [
+        0.2200307378887452,
+        -42.76300606809714,
+        59.76631622452568
+      ],
+      "D": [
+        0.22004281800021513,
+        -38.799999999999955,
+        49.29088864833201
+      ],
+      "P": [
+        0.2200220889972937,
+        -47.263006068098754,
+        67.26631622451973
+      ],
+      "lengths_mm": [
+        11.199999999999996,
+        9.000000000000007,
+        11.199999999999998,
+        9.000000000000028
+      ],
+      "branch": 1,
+      "components": [
+        "mouth_six-bar mechanism_above_short-2",
+        "mouth_six-bar mechanism_below_short-2",
+        "mouth_lip connecting rod-7",
+        "mouth_ball of spherical hinge-8"
+      ],
+      "body_roles": {
+        "upper": "mouth_six-bar mechanism_above_short-2",
+        "lower": "mouth_six-bar mechanism_below_short-2",
+        "output": "mouth_lip connecting rod-7",
+        "ball": "mouth_ball of spherical hinge-8"
+      },
+      "parameter": "guide_rocker_delta_deg",
+      "parameter_status": "guide_angle_not_motor_angle",
+      "drive": null,
+      "output_definition": "native sphere centre; passive skin-pad orientation excluded",
+      "frame": "saved mouth assembly, jaw fixed",
+      "unit": "mm",
+      "parallelogram_branch": true,
+      "native_motor_occurrences": [
+        "mouth_MG90S-23"
+      ]
+    },
+    {
+      "key": "L+",
+      "label": "下唇 +X",
+      "kind": "fourbar",
+      "normal": [
+        0.573577380984945,
+        2.8801374837029293e-16,
+        -0.8191513828484033
+      ],
+      "A": [
+        12.171884528618266,
+        -46.79999999999984,
+        40.03608734186214
+      ],
+      "B": [
+        22.407739440065264,
+        -49.06890719316357,
+        47.20332770204375
+      ],
+      "C": [
+        22.407739440065214,
+        -40.068907193163604,
+        47.20332770204372
+      ],
+      "D": [
+        12.171884528618207,
+        -37.7999999999999,
+        40.03608734186211
+      ],
+      "P": [
+        28.55137481138907,
+        -44.56890719322966,
+        51.50515805940338
+      ],
+      "lengths_mm": [
+        12.699999999999996,
+        8.999999999999964,
+        12.700000000000005,
+        8.999999999999943
+      ],
+      "branch": 1,
+      "components": [
+        "mouth_six-bar mechanism_with spherical hinge-2",
+        "mouth_smiling six-bar mechanism_below-5",
+        "mouth_lip connecting rod-6",
+        "mouth_ball of spherical hinge-7"
+      ],
+      "body_roles": {
+        "upper": "mouth_six-bar mechanism_with spherical hinge-2",
+        "lower": "mouth_smiling six-bar mechanism_below-5",
+        "output": "mouth_lip connecting rod-6",
+        "ball": "mouth_ball of spherical hinge-7"
+      },
+      "parameter": "guide_rocker_delta_deg",
+      "parameter_status": "motor_mapping_available_with_recorded_status",
+      "drive": {
+        "type": "R_SS_R_distance_closure",
+        "crank": "mouth_crank-29",
+        "rod": "mouth_self-made ball hinge rod for the lower teeth-2",
+        "axis": [
+          0.9999999999993351,
+          2.454241413319519e-16,
+          1.15318552788374e-06
+        ],
+        "origin_mm": [
+          -1.1006672266944406e-05,
+          -39.999999999999986,
+          9.544580652486722
+        ],
+        "input_point_mm": [
+          11.367911979175974,
+          -67.46211538406824,
+          27.334989256172427
+        ],
+        "output_point_mm": [
+          23.04221755617591,
+          -48.22923287759287,
+          38.23484337386326
+        ],
+        "length_mm": 24.999999999999996,
+        "output_axis_distance_mm": 1.4121161304408466e-11,
+        "status": "native_geometry_and_positive_side_mate_pairs_consistent",
+        "note": "Jaw held fixed; no calibrated absolute angle, torque, stops or collisions. Negative-X metal-ball instance has a saved-placement discrepancy."
+      },
+      "output_definition": "native sphere centre; passive skin-pad orientation excluded",
+      "frame": "saved mouth assembly, jaw fixed",
+      "unit": "mm",
+      "parallelogram_branch": true,
+      "native_motor_occurrences": [
+        "mouth_MG90S-18"
+      ]
+    },
+    {
+      "key": "C+",
+      "label": "嘴角 +X",
+      "kind": "fivebar",
+      "normal": [
+        0.8191520442890126,
+        -1.899365702920636e-16,
+        0.5735764363510165
+      ],
+      "A": [
+        37.33583750862689,
+        11.199999999999108,
+        29.104672189580292
+      ],
+      "E": [
+        51.86928854443174,
+        -6.200000000014324,
+        8.348753061709857
+      ],
+      "B": [
+        45.65787052732615,
+        4.455499542478927,
+        17.219577321881957
+      ],
+      "D": [
+        48.82094875447533,
+        -21.291548395596408,
+        12.702233456609118
+      ],
+      "J": [
+        34.571939163325,
+        -18.488754521658187,
+        33.05192810226129
+      ],
+      "P": [
+        32.68813750200816,
+        -20.57294729551072,
+        41.84809226664916
+      ],
+      "lengths_mm": [
+        16.0,
+        29.99999999999992,
+        24.999999999995293,
+        15.999999999999996,
+        30.737426337501034
+      ],
+      "branch": -1,
+      "components": [
+        "mouth_crank-8",
+        "mouth_crank-10",
+        "mouth_smiling five-bar mechanism_above-1",
+        "mouth_smiling five-bar mechanism_below-1"
+      ],
+      "body_roles": {
+        "crank1": "mouth_crank-8",
+        "crank2": "mouth_crank-10",
+        "coupler1": "mouth_smiling five-bar mechanism_above-1",
+        "coupler2": "mouth_smiling five-bar mechanism_below-1"
+      },
+      "parameter": "two_motor_delta_deg",
+      "parameter_status": "geometric_motor_deltas_from_saved_pose",
+      "output_definition": "native integrated R4 tip disk centre; common hinge J also retained",
+      "frame": "saved mouth assembly, jaw fixed",
+      "unit": "mm",
+      "native_motor_occurrences": [
+        "mouth_MG90S-6",
+        "mouth_MG90S-7"
+      ]
+    },
+    {
+      "key": "C-",
+      "label": "嘴角 −X",
+      "kind": "fivebar",
+      "normal": [
+        0.8191520442890123,
+        8.257283745649602e-16,
+        -0.5735764363510167
+      ],
+      "A": [
+        -37.33583750862687,
+        11.199999999999104,
+        29.10467218958029
+      ],
+      "E": [
+        -51.86928854443173,
+        -6.200000000014267,
+        8.348753061709843
+      ],
+      "B": [
+        -45.65787052732613,
+        4.455499542478933,
+        17.21957732188195
+      ],
+      "D": [
+        -48.8209487544753,
+        -21.291548395596354,
+        12.702233456609104
+      ],
+      "J": [
+        -34.571939163324956,
+        -18.488754521658183,
+        33.0519281022613
+      ],
+      "P": [
+        -32.68813750200815,
+        -20.5729472955115,
+        41.848092266649175
+      ],
+      "lengths_mm": [
+        15.999999999999998,
+        29.999999999999936,
+        24.99999999999531,
+        16.000000000000004,
+        30.737426337501017
+      ],
+      "branch": -1,
+      "components": [
+        "mouth_crank-12",
+        "mouth_crank-13",
+        "mouth_smiling five-bar mechanism_above-2",
+        "mouth_mirror_smiling five-bar mechanism_below-2"
+      ],
+      "body_roles": {
+        "crank1": "mouth_crank-12",
+        "crank2": "mouth_crank-13",
+        "coupler1": "mouth_smiling five-bar mechanism_above-2",
+        "coupler2": "mouth_mirror_smiling five-bar mechanism_below-2"
+      },
+      "parameter": "two_motor_delta_deg",
+      "parameter_status": "geometric_motor_deltas_from_saved_pose",
+      "output_definition": "native integrated R4 tip disk centre; common hinge J also retained",
+      "frame": "saved mouth assembly, jaw fixed",
+      "unit": "mm",
+      "native_motor_occurrences": [
+        "mouth_MG90S-8",
+        "mouth_MG90S-9"
+      ]
+    }
+  ],
+  "scope": "8 lip outputs, 10 nominal actuator channels, saved jaw pose fixed",
+  "limitations": [
+    "Three wire-actuator mappings are nonunique under reconstructed saved constraints; guide sweeps are not motor sweeps. Upper centre has a nonlinear complete wire-drive solve.",
+    "Negative-X lower-lip drive is a conditional reconstruction due to the recorded ball-placement discrepancy.",
+    "No collisions, hardware limits, calibrated zero or PWM mapping are certified.",
+    "Passive skin-pad orientation and soft-skin material-point trajectories are not determined."
+  ]
+}

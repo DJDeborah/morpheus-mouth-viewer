@@ -1,0 +1,61 @@
+{
+  "audience": "public-anonymous-explicitly-authorized",
+  "original_cad_included": false,
+  "files": [
+    {
+      "path": "credits.html",
+      "bytes": 1636,
+      "sha256": "47c10c7c021c8aa035a4ecc776f6c61c1218cc0ca0983516438dc611206b6821"
+    },
+    {
+      "path": "index.html",
+      "bytes": 6920,
+      "sha256": "218115bb7ad5fb34fe28508cf21de27412040a90b78fab3e30721450cba9dc88"
+    },
+    {
+      "path": "LICENSE-Morpheus.txt",
+      "bytes": 1072,
+      "sha256": "85bce0dd95f44ef02a529d6c539931fdae0624db43e96b211d6525eff42f4bd7"
+    },
+    {
+      "path": "LICENSE-three.txt",
+      "bytes": 1081,
+      "sha256": "852e0e8699169bf9f6fdc6bda3e682d078dcbc738b5d33e74df594721bff271d"
+    },
+    {
+      "path": "model.json",
+      "bytes": 17565,
+      "sha256": "0f5469095bb61d984d3991f3f623d73e1a50482a7db7a2817852f594ca2e20e4"
+    },
+    {
+      "path": "README-Morpheus.txt",
+      "bytes": 29511,
+      "sha256": "c280c2282f4a3e593099d33e56d7b479d7c40dfc4ec6f6b45c7ee71d51db22d6"
+    },
+    {
+      "path": "three.min.js",
+      "bytes": 669884,
+      "sha256": "170c6789f43217c96b3170f4b42fafe135de7f7cd48497a4218f9757ee1d49fa"
+    },
+    {
+      "path": "trajectories.json",
+      "bytes": 12627962,
+      "sha256": "70a2b531aed4334f1277ce0eca269b29764035624feee8967c12bd3532c67805"
+    },
+    {
+      "path": "validation.json",
+      "bytes": 6119,
+      "sha256": "8805baf538af54bfdc5c90d0bc4f3509d115da2cc06784563b7dacf0c84e2880"
+    },
+    {
+      "path": "viewer.js",
+      "bytes": 19398,
+      "sha256": "95e0af2b36ea9a9aa7d451fb81b366aece6c8a775e4b7ac0f93d397f2021bfd2"
+    },
+    {
+      "path": "viewer_data.js",
+      "bytes": 15549262,
+      "sha256": "a65d2818cb34ece170385d134e2ccedd1414163c3506650223cc76153ab902cd"
+    }
+  ]
+}
